@@ -1,4 +1,4 @@
-#file-displayer-electron-angular
+#Simple app
 
 Simple electron + angular(1) app which lists the files and folders of a 
 given directory.
@@ -16,3 +16,7 @@ Clone the repo then
 npm init
 npm start
 ```
+
+#todo
+
+Package as some sort of bin

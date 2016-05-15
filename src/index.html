@@ -1,0 +1,24 @@
+<!-- This is a browser context with node OS level interfaces
+    e.g.  require('fs')
+    e.g.  require('electron').remote.menu
+    e.g.  require('./myOwnModule.js')
+-->
+
+<html ng-app="deskapp">
+<head>
+  <script src="../node_modules/angular/angular.js"></script>
+  <script src="services.js"></script>
+  <script src="controllers.js"></script>
+</head>
+<body ng-controller="FilesCtrl">
+  <h1>{{welcome}}</h1>
+  <p>
+    Type a file system path in the box below. It will be triggered onBlur. <br><br>
+    Dir: <input ng-model="searchInput" ng-blur="search()" placeholder="e.g. './'">
+  </p>
+  <p>{{warning}}</p>
+  <ul>
+    <li ng-repeat="file in files">{{file}}</li>
+  </ul>
+</body>
+</html>

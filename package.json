@@ -1,0 +1,27 @@
+{
+  "name": "filedisplayer",
+  "version": "1.0.0",
+  "description": "Very simple app which lists the file contents in a given directory. Made solely to learn.",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "electron ."
+  },
+  "author": "Aaron",
+  "license": "MIT",
+  "dependencies": {
+    "electron-prebuilt": "^1.0.2",
+    "angular": "^1.5.5"
+  },
+  "devDependencies": {},
+  "keywords": [
+    "learning",
+    "angular",
+    "angularjs",
+    "electron",
+    "es6",
+    "simple",
+    "learning",
+    "learn"
+  ]
+}
